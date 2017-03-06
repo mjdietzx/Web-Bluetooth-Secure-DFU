@@ -13,7 +13,7 @@ function littleEndian(src) {
     buffer[j] = src[i];
   }
 
-  return new Uint8Array(src);
+  return buffer;
 }
 
 
